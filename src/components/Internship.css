@@ -1,0 +1,58 @@
+.internship-section {
+  background: #131a22;
+  padding: 3rem 0 2rem 0;
+  color: #e0ffe0;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  border-top: 1.5px solid #00e0ff33;
+  border-bottom: 1.5px solid #39ff1433;
+  box-shadow: 0 0 24px 2px #00e0ff22 inset;
+}
+.section-title {
+  font-size: 2rem;
+  color: #39ff14;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px #39ff1444;
+}
+.internship-card {
+  background: rgba(20, 30, 40, 0.97);
+  border-radius: 14px;
+  border: 1.5px solid #00e0ff33;
+  box-shadow: 0 0 16px 2px #39ff1422;
+  padding: 1.5rem 1.2rem;
+  max-width: 500px;
+  margin: 0 auto;
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.internship-card:hover {
+  box-shadow: 0 0 32px 6px #00e0ff66, 0 0 16px 4px #39ff1455;
+  transform: translateY(-4px) scale(1.02);
+}
+.internship-company {
+  color: #00e0ff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 6px #00e0ff44;
+}
+.internship-role {
+  color: #e0ffe0cc;
+  font-size: 1rem;
+}
+.internship-placeholder {
+  color: #39ff14;
+  font-style: italic;
+  text-shadow: 0 0 6px #39ff1444;
+}
+@media (max-width: 600px) {
+  .internship-card {
+    padding: 1rem 0.5rem;
+    max-width: 98vw;
+  }
+  .section-title {
+    font-size: 1.3rem;
+  }
+} 

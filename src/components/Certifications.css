@@ -1,0 +1,65 @@
+.certifications-section {
+  background: #101820;
+  padding: 3rem 0 2rem 0;
+  color: #e0ffe0;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  border-top: 1.5px solid #00ffae33;
+  border-bottom: 1.5px solid #00e0ff33;
+  box-shadow: 0 0 24px 2px #00ffae22 inset;
+}
+.section-title {
+  font-size: 2rem;
+  color: #00e0ff;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px #00e0ff44;
+}
+.certifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.cert-item {
+  background: rgba(20, 30, 40, 0.95);
+  border-radius: 12px;
+  border: 1.5px solid #00ffae33;
+  box-shadow: 0 0 12px 2px #00e0ff22;
+  padding: 1.2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  transition: box-shadow 0.2s;
+}
+.cert-item:hover {
+  box-shadow: 0 0 24px 4px #00ffae66, 0 0 12px 2px #00e0ff55;
+}
+.cert-provider {
+  color: #39ff14;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-shadow: 0 0 6px #39ff1444;
+}
+.cert-title {
+  color: #00e0ff;
+  font-size: 1rem;
+}
+.cert-status {
+  color: #e0ffe0cc;
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-left: 0.5em;
+}
+@media (max-width: 600px) {
+  .certifications-list {
+    padding: 0 0.5rem;
+  }
+  .cert-item {
+    padding: 1rem 0.5rem;
+  }
+  .section-title {
+    font-size: 1.3rem;
+  }
+} 

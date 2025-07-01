@@ -1,0 +1,59 @@
+.footer-section {
+  background: #101820;
+  color: #e0ffe0;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  border-top: 1.5px solid #00ffae33;
+  box-shadow: 0 0 24px 2px #00ffae22 inset;
+  padding: 1.5rem 0 1rem 0;
+  text-align: center;
+}
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+.footer-contact span {
+  display: inline-block;
+  color: #e0ffe0bb;
+  font-size: 1rem;
+  margin: 0 0.7rem;
+}
+.footer-socials {
+  margin: 0.5rem 0;
+  display: flex;
+  gap: 1.2rem;
+}
+.footer-socials a {
+  color: #00ffae;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  transition: color 0.2s, text-shadow 0.2s;
+  text-shadow: 0 0 6px #00ffae44;
+}
+.footer-socials a.github { color: #00e0ff; text-shadow: 0 0 6px #00e0ff44; }
+.footer-socials a.tryhackme { color: #39ff14; text-shadow: 0 0 6px #39ff1444; }
+.footer-socials a:hover {
+  color: #fff;
+  text-shadow: 0 0 12px #00ffae, 0 0 8px #00e0ff;
+}
+.footer-copyright {
+  color: #e0ffe099;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+@media (max-width: 600px) {
+  .footer-content {
+    padding: 0 0.5rem;
+  }
+  .footer-contact span {
+    font-size: 0.95rem;
+    margin: 0 0.3rem;
+  }
+  .footer-socials {
+    gap: 0.7rem;
+  }
+} 
